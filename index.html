@@ -4,6 +4,37 @@
 <title>Example Website</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <!-- This will show up in the tab. -->
+<style>
+.articletitle {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.articletitle > h1,
+.article {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.article {
+    background: right/contain content-box border-box no-repeat
+        url('./files/image.jpg') white;
+}
+
+.article > h2,
+.article > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+figure {
+    margin: 0;
+}
+
+</style>
+<!-- That is CSS. CSS is used to format your website. -->
 </head>
 <body>
 
@@ -63,6 +94,21 @@
 </select>
 <!-- A selection menu, you can add as many as you want. -->
 <p>
+<article class="articletitle">
+    <h1>This is an article.</h1>
+    <article class="article">
+        <h2>Topic</h2>
+        <p>Info</p>
+    </article>
+    <article class="article">
+        <h2>Topic</h2>
+        <p>Info</p>
+    </article>
+    <article class="article">
+        <h2>Topic</h2>
+        <p>Info</p>
+    </article>
+</article>
 <figure>
     <figcaption>This is a long audio file. (Audio Credit: Widdly 2 Diddly)</figcaption>
     <audio
