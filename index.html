@@ -32,7 +32,10 @@
 figure {
     margin: 0;
 }
-
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
 </style>
 <!-- That is CSS. CSS is used to format your website. -->
 </head>
@@ -82,7 +85,6 @@ figure {
 <!-- Self explanatory -->
 <p></p>
 <label for="select">This is a selection menu.</label>
-<p></p>
 <select name="selection" id="select">
     <option value="">--Please choose an option--</option>
     <option value="1">1</option>
@@ -93,7 +95,11 @@ figure {
     <option value="and so on">And so on.</option>
 </select>
 <!-- A selection menu, you can add as many as you want. -->
-<p>
+<p></p>
+<label for="bar">This is a progress bar:</label>
+<progress id="bar" max="100" value="70"> 70% </progress>
+<!-- Progress bar. Doesn't really do anything unless you do server stuff that I don't understand. -->
+<p></p>
 <article class="articletitle">
     <h1>This is an article.</h1>
     <article class="article">
@@ -109,6 +115,7 @@ figure {
         <p>Info</p>
     </article>
 </article>
+<p></p>
 <figure>
     <figcaption>This is a long audio file. (Audio Credit: Widdly 2 Diddly)</figcaption>
     <audio
