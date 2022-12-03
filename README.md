@@ -1,5 +1,5 @@
 # Example Website
-An example website i threw together to help with later projects.
-You can use this for anything you want.
+A simple website filled with basic elements.
+I do not feel like typing out many elements most times so it's easier to copy paste them from here.
 
-https://example.nyrif.me/
+https://example.carrionandon.me/
