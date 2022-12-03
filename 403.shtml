@@ -1,0 +1,7 @@
+<title>This Is Error 403</title>
+<p>This is an error page.</p>
+<p>They describe errors that happen with a site.</p>
+<p>The files are .shtml files, but the contents and formatting are usually the same as a regular html file.</p>
+<p>The files are named "###.shtml", with the ### being the error code number. They are placed where the index.html is placed.</p>
+<p>Most webhosts provide an area where you can easily create these pages. Check the documentation for your webhost.</p>
+<p>This error is 403: Forbidden, which means you don't have access to the directory or file.</p>
